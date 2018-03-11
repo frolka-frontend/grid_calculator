@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=Emulated7"/>
+	<meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <div class="site">
+        <header class="header wide-wrapper">
+            <div class="page-wrapper">
+                <h1>GRID calculator</h1>
+            </div>
+        </header>
+        <div class="main-container">
+            <div class="page-wrapper">
+                 <form action="">
+                    <div class="form-block">
+                        <div class="input-row">
+                            <label for="pagewidth">Wrapper width:</label>
+                            <input id="pagewidth" type="text"/>
+                        </div>
+                        <div class="input-row">
+                            <label for="columncount">Columns:</label>
+                            <input id="columncount" type="text" />
+                        </div>   
+                    </div>
+                    <div class="form-block">
+                        <div class="input-row">
+                            <label for="gutterval">Gutter width:</label>
+                            <input id="gutterval" type="text"/>
+                        </div>
+                        <div class="input-row">
+                            <label for="marginval">Margin width:</label>
+                            <input id="marginval" type="text" >
+                        </div>   
+                    </div>
+                    <div class="form-block result-panel">
+                        <div class="input-row">
+                            <label>Wrap width:</label>
+                            <div class="result-block" id="wrapresult"></div>
+                        </div>
+                        <div class="input-row">
+                            <label>Column width:</label>
+                             <div class="result-block"><div id="pixelresult"><span></span> px</div><div id="percentresult"><span></span> %</div></div>
+                        </div>   
+                   </div>
+                </form>
+            </div>
+            <div class="visual-panel">
+                <div class="visual-wrapper"></div>
+            </div>
+        </div>
+         <footer class="footer wide-wrapper">
+        <div class="page-wrapper">
+            <p class="copyright">ebatronics systems inc © 2k18 till i die</p> 
+        </div>
+        <p></p>
+    </footer>
+    </div>
+    
+    </div>
+   
+   
+
+</body>
+</html>
